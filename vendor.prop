@@ -207,6 +207,9 @@ ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 # System
 persist.sys.binary_xml=false
 
+# HEH filename encryption is being dropped
+ro.crypto.volume.filenames_mode=aes-256-cts
+
 # USB
 persist.sys.usb.config.extra=none
 vendor.usb.dpl.inst.name=dpl
