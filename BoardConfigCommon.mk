@@ -138,6 +138,7 @@ TARGET_VENDOR_PROP += $(PLATFORM_PATH)/vendor.prop
 # RIL
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 CUSTOM_APNS_FILE := $(PLATFORM_PATH)/configs/sprint_apns.xml
+CUSTOM_APNS_FILE := $(PLATFORM_PATH)/configs/boost_apns.xml
 ODM_MANIFEST_SKUS += qcril
 ODM_MANIFEST_QCRIL_FILES := $(PLATFORM_PATH)/odm_manifest_qcril.xml
 
