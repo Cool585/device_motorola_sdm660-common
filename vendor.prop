@@ -207,6 +207,9 @@ debug.sf.early_gl_app_phase_offset_ns=15000000
 # HEH filename encryption is being dropped
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# System
+persist.sys.binary_xml=false
+
 # USB
 persist.sys.usb.config.extra=none
 vendor.usb.rmnet.func.name=rmnet_bam
